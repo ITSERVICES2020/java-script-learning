@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MULTIPLE FUNCTIONS</title>
+    </head>
+    <body>
+    
+            <script>
+                function myFirst(){
+                    document.write("i am first bro  ");
+                    mySecond();
+                }
+                function mySecond(){
+                    document.write("i am second bro");
+                    myFirst();
+
+                }
+                function myFunction(){
+                    myFirst();
+                    mySecond();
+                }
+                myFirst();
+            </script>
+        
+    </body>
+</html>

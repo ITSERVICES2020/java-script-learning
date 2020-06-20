@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OBJECTS IN JS</title>
+    </head>
+    <body>
+        <center>
+            <script>
+                function customer(name,mobile){
+                    this.name=name;
+                    this.mobile=mobile;
+                }
+                var vickky=new customer("vikram",9654751645);
+                var sri=new customer("srikanth",54655545665);
+                var sam=new customer('sameer',9856645656);
+                document.write(vickky.name+"  "+vickky.mobile+"<br>");
+                document.write(sri.name+"  "+sri.mobile+"<br>");
+                document.write(sam.name+" "+sam.mobile);
+            </script>
+            
+        </center>
+    </body>
+</html>

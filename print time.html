@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PRINT TIME
+        </title>
+    </head>
+    <body>
+        <center>
+            <script>
+                function printTime(){
+                    var now= new Date();
+                    var hh=now.getHours();
+                    var mm=now.getMinutes();
+                    var ss=now.getSeconds();
+                    document.write(hh+":"+mm+":"+ss+"<br>");
+                }
+                setInterval('printTime()',1000);
+            </script>
+        </center>
+    </body>
+</html>
