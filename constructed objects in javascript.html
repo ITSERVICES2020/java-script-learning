@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONSTRUCTED OBJECTS IN JAVASCRIPTS</title>
+    </head>
+    <body>
+        
+        <center>
+            <script>
+               function boy (name,age){
+                   this.name=name;
+                   this.age=age;
+                   this.toBecomeSenior=yearsLeft;
+               }
+               function yearsLeft(){
+                   var senior=60-this.age;
+                   return senior;
+               }
+               var sameer=new boy("sameer kumar",30);
+               var vijay=new boy('vijay kumar',56);
+
+               document.write(sameer.toBecomeSenior()+"<br>");
+               document.write(vijay.toBecomeSenior());
+               
+            </script>
+        </center>
+    </body>
+</html>
